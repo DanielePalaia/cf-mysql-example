@@ -4,16 +4,16 @@ Sample of an application using cloud foundry with a mysql instance bounded. </br
 The program is implementing a Todo List throught a set of rest api </br>
 You can get the collection of Todo to do, you can insert, update or delete a new todo item following this curl commands:</br>
 
-You can test with curl the various rest api, for instance</br>
+You can test with curl the various rest api, for instance</br></br>
 
-curl http://localhost:8080/todos</br>
+curl http://localhost:8080/todos</br></br>
 
 will do get to the collection showing all the collection elements</br>
 
-this one will create a new element to the collection</br>
+this one will create a new element to the collection</br></br>
 
 curl -H "Content-Type: application/json" -d '{"Topic":"New TodoElem", "Completed":0}' -X PUT http://localhost:8080/todos
-</br>
+</br></br>
 this one will get an element:</br></br>
 
 curl http://localhost:8080/todos/1
