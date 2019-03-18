@@ -14,17 +14,17 @@ this one will create a new element to the collection</br>
 
 **curl -H "Content-Type: application/json" -d '{"Topic":"New TodoElem", "Completed":0}' -X PUT http://localhost:8080/todos**
 </br>
-this one will get an element:</br>
+this one will get an element:</br></br>
 
 **curl http://localhost:8080/todos/1**
 
-this one will update an existing element of the collection</br>
+this one will update an existing element of the collection</br></br>
 **curl -H "Content-Type: application/json" -d '{"Id":0,"name":"New TodoElem Updated"}' -X POST http://localhost:8080/todos**
 
-this one will delete a resource</br>
+this one will delete a resource</br></br>
 **curl -X DELETE http://localhost/todos/1**
 
-this one will delete all the collection</br>
+this one will delete all the collection</br></br>
 **curl -X DELETE http://localhost/todos**
 
  </br></br>
