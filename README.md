@@ -25,7 +25,7 @@ curl -X DELETE http://localhost/todos/1</br>
 this one will delete all the collection</br>
 curl -X DELETE http://localhost/todos</br>
 
- </br></br>
+ </br>
  
  **Running the project locally**</br>
  You need an instance of mysql to run. Create a database and the simple table as defined in the file datastore.sql</br> 
