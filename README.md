@@ -25,9 +25,14 @@ curl -X DELETE http://localhost/todos/1</br>
 this one will delete all the collection</br>
 curl -X DELETE http://localhost/todos</br>
 
-
  </br></br>
  
- **Running the project locally**
+ **Running the project locally**</br>
+ You need an instance of mysql to run. Create a database and the simple table as defined in the file datastore.sql</br> 
+ In the file conf specify the dbms parameters (user, password, host, port and database)</br> 
  
-
+ Run /bin/project</br>  
+ 
+ The server will start listening to port 8080 ready to listen to the curl command as specified above</br>
+ 
+**Running on Cloud Foundry**</br>
