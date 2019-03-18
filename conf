@@ -1,0 +1,5 @@
+USERNAME:root
+PASSWD:daniele
+HOST:localhost
+DATABASE:tododatastore
+PORT:3306

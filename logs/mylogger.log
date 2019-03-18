@@ -1,0 +1,2 @@
+TodoService service.go:13: 2019-03-18 15:46:06.59584 +0000 UTC Starting service
+TodoService datastore.go:43: 2019-03-18 15:46:30.761712 +0000 UTC root:daniele@tcp(localhost:3306)/tododatastore
