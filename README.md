@@ -8,7 +8,7 @@ You can test with curl the various rest api, for instance</br>
 
 curl http://localhost:8080/todos</br>
 
-will do get to the collection showing all the collection elements</br>
+will get to the collection showing all the collection elements</br>
 
 this one will create a new element to the collection</br>
 curl -H "Content-Type: application/json" -d '{"Topic":"New TodoElem", "Completed":0}' -X POST http://localhost:8080/todos</br>
@@ -28,7 +28,7 @@ curl -X DELETE http://localhost/todos</br>
  </br>
  
  **Running the project locally**</br>
- You need an instance of mysql to run. Create a database and the simple table as defined in the file datastore.sql</br> 
+ You need an instance of mysql to run. Create a database and the simple table as defined in the file datastore.sql file</br> 
  In the file conf specify the dbms parameters (user, password, host, port and database)</br> 
  
  Run /bin/project</br>  
