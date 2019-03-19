@@ -36,3 +36,15 @@ curl -X DELETE http://localhost/todos</br>
  The server will start listening to port 8080 ready to listen to the curl command as specified above</br>
  </br>  
 **Running on Cloud Foundry**</br>
+1. Download and install cf-dev https://docs.pivotal.io/pcf-dev/usage.html or create and account at Pivotal Web Service https://run.pivotal.io/</br>
+2. Download and install the cf client</br>
+3. Login with cf </br>
+   cf login -a https://api.dev.cfdev.sh --skip-ssl-validation </br>
+4. cf push on the current project path </br>
+5. Open the apps manager and login with: admin, admin </br> 
+   https://login.dev.cfdev.sh/home   </br> 
+6. in services section create a new mysql service and bind it to the current app (todos)</br> 
+8. Do an cf mysql your_mysel_service_name in order to enter to the mysql prompt of the mysq instance now created</br>
+9. Create database and table as specified in datastore.sql </br>
+10. Create a binding key, once created have a look at it in order to look to the username/password and host to use</br> 
+11. Replace the info in the conf file of the project and cf push again</br> 
