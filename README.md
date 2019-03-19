@@ -48,3 +48,4 @@ curl -X DELETE http://localhost/todos</br>
 9. Create database and table as specified in datastore.sql </br>
 10. Create a binding key, once created have a look at it in order to look to the username/password and host to use</br> 
 11. Replace the info in the conf file of the project and cf push again</br> 
+12. Use https://todos.dev.cfdev.sh/todos and the commands specified before to test teh application using the rest-api </br> 13. Do and cf ssh todos in order to enter the container app and go to /app/logs/mylogger.log in order to debug and see the log of the application if necessary.
