@@ -1,4 +1,4 @@
-# cf-mysql-example
+# Introduction
 Sample of an application using cloud foundry with a mysql instance bounded. </br></br>
 
 The program is implementing a Todo List throught a set of rest api </br>
@@ -27,7 +27,7 @@ curl -X DELETE http://localhost/todos</br>
 
  </br>
  
- **Running the project locally**</br>
+## Running locally
  You need an instance of mysql to run. Create a database and the simple table as defined in the file datastore.sql file</br> 
  In the file conf specify the dbms parameters (user, password, host, port and database)</br> 
  
@@ -35,7 +35,7 @@ curl -X DELETE http://localhost/todos</br>
  
  The server will start listening to port 8080 ready to listen to the curl command as specified above</br>
  </br>  
-**Running on Cloud Foundry**</br>
+## Running on Cloud Foundry
 1. Download and install cf-dev https://docs.pivotal.io/pcf-dev/usage.html or create and account at Pivotal Web Service https://run.pivotal.io/</br>
 2. Download and install the cf client</br>
 3. Login with cf </br>
